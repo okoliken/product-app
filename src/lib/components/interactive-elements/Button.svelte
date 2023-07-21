@@ -42,5 +42,5 @@
   class:w-full={blockWidth}
   class="appearance-none outline-none flex items-center justify-center gap-x-2 {spacing} {radius} {className} {buttonStyle}"
 >
-  <span class="inline-block font-bold">{buttonText}</span>
+  <span class="inline-block text-[14px] font-bold">{buttonText}</span>
 </button>

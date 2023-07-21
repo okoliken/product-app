@@ -6,7 +6,7 @@
 
 <div
   style={inlineStyle}
-  class="{cardColor} {className} w-full px-6 py-4 rounded-[10px] flex"
+  class="{cardColor} {className} w-full px-6 py-4 rounded-[10px] flex relative"
 >
   <slot name="content" />
 </div>

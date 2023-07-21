@@ -103,7 +103,9 @@
 
 						<SortMenu />
 					</div>
-					<Button buttonType={'purple'} />
+					<a href="/add-task">
+						<Button buttonType={'purple'} />
+					</a>
 				</div>
 			</Card>
 
