@@ -19,7 +19,8 @@
 
         <IconArrowLeft />
       </div>
-			<Button buttonType="darkBlue" buttonText="Edit Feedback" />
+	  <Button buttonType="darkBlue" buttonText="Edit Feedback" />
+			
 		</div>
 
 		<div class="mt-7">
@@ -33,9 +34,9 @@
 						<Comment>
 							<div transition:blur={{ amount: 10 }} class="w-full mt-4" slot="reply-comment">
 								<AddComment
-									width={'w-full max-w-[516px]'}
-									buttonText={'Post Reply'}
-									flexDirection={'justify-between'}
+									width='w-full max-w-[516px]'
+									buttonText='Post Reply'
+									flexDirection='justify-between'
 								/>
 							</div>
 							<div class="pl-12" slot="nested-comments">
@@ -43,9 +44,9 @@
 									<Comment>
 										<div transition:blur={{ amount: 10 }} class="w-full mt-4" slot="reply-comment">
 											<AddComment
-												width={'w-full max-w-[480px]'}
-												buttonText={'Post Reply'}
-												flexDirection={'justify-between'}
+												width='w-full max-w-[480px]'
+												buttonText='Post Reply'
+												flexDirection='justify-between'
 											/>
 										</div>
 									</Comment>
@@ -56,7 +57,7 @@
 				</div>
 			</Card>
 
-			<Card className={'my-5'}>
+			<Card className='my-5'>
 				<div class="py-1 px-5 w-full" slot="content">
 					<div class="mb-6">
 						<h3 class="text-productDarkPurple font-bold text-[18px]">Add Comment</h3>
