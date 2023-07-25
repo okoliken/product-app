@@ -107,7 +107,7 @@
 				</div>
 			</Card>
 
-			{#each Array(7) as items, index}
+			{#each Array(6) as items, index}
 				<ProductTask />
 			{:else}
 				<div class="bg-white mt-4 w-full min-h-[600px] rounded-[10px] p-4">
