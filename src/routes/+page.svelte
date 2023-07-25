@@ -43,9 +43,7 @@
 		else if (taskTitle.toLowerCase() == 'in-progress') return 'bg-productDarkPink';
 		else return 'bg-productBlue';
 	};
-	//
-	// @ts-ignore
-	// const linkTag: ComponentType = Link;
+
 </script>
 
 <div class="container mx-auto px-12">
@@ -120,4 +118,3 @@
 	</div>
 </div>
 
-<!-- product-design/ -->
