@@ -1,5 +1,4 @@
 <script lang="ts">
-  import IconArrowDown from "$lib/components/icons/icon-arrow-down.svelte";
   let options = ["Feature", "UI", "UX", "Enhancement", "Bug"];
   let selectedOption = "";
 

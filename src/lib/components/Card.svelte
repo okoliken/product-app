@@ -1,7 +1,7 @@
 <script lang="ts">
-  export let cardColor: string = "bg-white";
-  export let className: string = "";
-  export let inlineStyle: string | null = null;
+  export let cardColor: string = "bg-white"
+  export let className: string = ""
+  export let inlineStyle: string | null = null
 </script>
 
 <div
