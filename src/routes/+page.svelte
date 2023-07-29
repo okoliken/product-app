@@ -46,9 +46,9 @@
 
 </script>
 
-<div class="container mx-auto px-12">
-	<div class="grid grid-cols-12 mt-16 place-content-center gap-x-6">
-		<div class="col-span-4 p-2">
+<div class="container mx-auto px-12 ">
+	<div class="grid grid-cols-12 mt-16 place-content-center gap-x-4">
+		<div class="col-span-3 p-2">
 			<Card {inlineStyle} className="min-h-[180px] flex items-end">
 				<div class="ml-5 transform -translate-y-8" slot="content">
 					<h3 class="text-[20px] font-bold text-white">Frontend Mentor</h3>
@@ -57,7 +57,7 @@
 			</Card>
 
 			<Card className="mt-4 min-h-[180px]">
-				<div class="flex items-center gap-x-5 flex-wrap px-4" slot="content">
+				<div class="flex items-center gap-x-5 flex-wrap" slot="content">
 					{#each tags as tag}
 						<Tags on:select={(e) => selectTag(e)} {tag} {selectedTag} />
 					{/each}
@@ -90,7 +90,7 @@
 				</div>
 			</Card>
 		</div>
-		<div class="col-span-8 p-2">
+		<div class="col-span-9 p-2">
 			<Card className="min-h-[72px]" cardColor="bg-productSoftDark">
 				<div class="flex items-center justify-between w-full px-3" slot="content">
 					<div class="flex items-center gap-x-8">
